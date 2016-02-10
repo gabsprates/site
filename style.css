@@ -1,0 +1,107 @@
+@import "css/fonte.css";
+@import "css/base.css";
+@import "css/efects.css";
+
+.bg-day {
+	background-image: url(imagens/adwaita-day.jpg);
+}
+
+h1, h2 {
+	text-shadow: 0 1px 0 #fff;
+}
+h1 {
+	color: #1A7278;
+}
+h2 {
+	margin-bottom: 10px;
+	color: #2C5D62;
+}
+
+#conteudo-principal {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	width: 100%;
+	max-width: 560px;
+	position: relative;
+}
+
+#eu {
+	display: table;
+}
+.minha-foto {
+	width: 120px;
+	min-width: 100px;
+	display: table-cell;
+	vertical-align: middle;
+}
+.minha-foto img {
+	width: 100%;
+}
+#eu h1 {
+	font-size: 3em;
+	width: calc( 100% - 120px );
+	display: table-cell;
+	padding-left: 20px;
+	vertical-align: middle;
+}
+@media (max-width: 339px) {
+	#eu {
+		display: block;
+	}
+	.minha-foto {
+		width: 100%;
+		text-align: center;
+		display: block;
+	}
+	#eu h1 {
+		font-size: 2.4em;
+		padding: 0;
+		text-align: center;
+	}
+}
+
+.sobre-mim {
+	margin: 35px 0;
+	line-height: 1.4;
+}
+.sobre-mim p {
+	margin-bottom: 8px;
+}
+
+#links-menu {
+ 	margin-left: -10px;
+	margin-right: -10px;
+	padding-bottom: 10px;
+}
+
+#links-menu a {
+	color: #fff;
+	margin: 10px;
+}
+#links-menu p {
+	position: absolute;
+	width: 100%;
+	bottom: 12px;
+	left: 0;
+}
+.btn-instagram,
+.btn-instagram:hover {
+	background-color: #71452C;
+}
+.btn-facebook,
+.btn-facebook:hover {
+	background-color: #4862A3;
+}
+.btn-twitter,
+.btn-twitter:hover {
+	background-color: #55ACEE;
+}
+.btn-slides,
+.btn-slides:hover {
+	background-color: #F32E53;
+}
+.btn-github,
+.btn-github:hover {
+	background-color: #333333;
+}
