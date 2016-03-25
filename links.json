@@ -3,20 +3,105 @@
     "titulo": "Gigapix Estúdio Multimídia",
     "link": "http://gigapix.com.br",
     "about": "Empresa que trabalho atualmente."
-  },
-  {
+  }, {
     "titulo": "DuckDuckGo",
     "link": "http://duckduckgo.com",
     "about": "Buscador que me fez deixar o Google Search."
-  },
-  {
+  }, {
     "titulo": "Patternify",
     "link": "http://www.patternify.com/",
     "about": "Gerador de imagens PNG em base64 com dataURI."
-  },
-  {
+  }, {
     "titulo": "Easing Functions Cheat Sheet",
     "link": "http://easings.net/",
     "about": "Esta página ajuda você a escolher a função de atenuação para animações, isso especifica a variação de um parâmetro ao longo do tempo."
+  }, {
+    "titulo": "PageSpeed Insights",
+    "link": "https://developers.google.com/speed/pagespeed/insights/",
+    "about": "Aplicação do Google desenvolvida para verificar velocidade e usabilidade dos sites."
+  }, {
+    "titulo": "Font Squirrel",
+    "link": "http://www.fontsquirrel.com/",
+    "about": "Font Squirrel é um ótimo recurso para escolher fontes de alta qualidade, além de possuir um gerador de '@font-face'."
+  }, {
+    "titulo": "Tableless",
+    "link": "http://tableless.com.br/",
+    "about": "Portal brasileiro onde podemos ficar bem informados das novas tecnologias."
+  }, {
+    "titulo": "You Might Not Need jQuery",
+    "about": "Exemplos de como fazer operações de eventos comuns, elementos, Ajax e utilitário com javascript simples... Sem jQuery.",
+    "link": "http://youmightnotneedjquery.com/"
+  }, {
+    "titulo": "Learning JavaScript Design Patterns",
+    "about": "Um livro open-source sobre Design Patterns em JavaScript.",
+    "link": "http://addyosmani.com/resources/essentialjsdesignpatterns/book/"
+  }, {
+    "titulo": "Dive Into HTML5",
+    "link": "http://diveintohtml5.com.br/",
+    "about": "Dive Into HTML5 procura elaborar uma seleção de funcionalidades da especificação da HTML5 e outras especificações interessantes escolhidas a dedo."
+  }, {
+    "titulo": "Can I use... Support tables for HTML5, CSS3, etc",
+    "link": "http://caniuse.com/",
+    "about": "Ficou na dúvida sobre compatibilidade dos browsers? No Can I Use você consegue saber se pode usar."
+  }, {
+    "titulo": "CodePen",
+    "link": "http://codepen.io/",
+    "about": "CodePen é um playground para o lado do front-end da web. É tudo sobre inspiração, educação, e partilha."
+  }, {
+    "titulo": "RegExr: Learn, Build, & Test RegEx",
+    "about": "Guia e testes para expressões regulares.",
+    "link": "http://www.regexr.com/"
+  }, {
+    "titulo": "PHP: Do Jeito Certo",
+    "about": "Uma referência rápida de melhores práticas de PHP, renomados padrões de código e links para tutoriais competentes pela Web.",
+    "link": "http://br.phptherightway.com/"
+  }, {
+    "titulo": "Free Online IDE and Terminal",
+    "about": "IDE e Terminal gratuito e online - editar, compilar, executar e compartilhar programas on-line. Você pode salvar seus projetos ao Dropbox, GitHub, Google Drive e onedrive para ser acessado em qualquer lugar e a qualquer momento.",
+    "link": "http://www.tutorialspoint.com/codingground.htm"
+  }, {
+    "titulo": "PHP: PHP type comparison tables - Manual",
+    "about": "Esta página demonstra o comportamento dos tipos e operadores de comparação no PHP, tanto para comparações frouxas ou rígidas.",
+    "link": "http://php.net/types.comparisons"
+  }, {
+    "titulo": "Ceweb.br",
+    "link": "http://ceweb.br/",
+    "about": "O Ceweb.br é um departamento do NIC.br para viabilizar a participação da comunidade brasileira no desenvolvimento global da Web e subsidiar a formulação de políticas públicas, com a missão de promover atividades que estimulem o uso de tecnologias abertas e padronizadas na Web."
+  }, {
+    "titulo": "Web Hypertext Application Technology Working Group",
+    "link": "https://whatwg.org/",
+    "about": "O WHATWG é uma crescente comunidade de pessoas interessadas na evolução da Web. Ele se concentra principalmente no desenvolvimento de HTML e APIs necessárias para aplicativos da Web."
+  }, {
+    "titulo": "InfoQ: Software Development News, Videos & Books",
+    "about": "InfoQ.com é um site de notícias da comunidade, orientada para o praticante, focado em facilitar a difusão do conhecimento e da inovação no desenvolvimento de software profissional.",
+    "link": "http://www.infoq.com/"
+  }, {
+    "titulo": "JS: The Right Way",
+    "about": "Uma rápida referência às melhores práticas para escrever JavaScript - links para padrões de código e tutoriais de todo a web.",
+    "link": "http://jstherightway.org/pt-br/"
+  }, {
+    "titulo": "Como perder peso (no browser)",
+    "about": "O guia definitivo de performance front-end.",
+    "link": "https://browserdiet.com/pt/"
+  }, {
+    "titulo": "Code Beautify",
+    "about": "Ferramentas on-line com embelezadores, editores, espectadores, minifier, validadores, conversores para desenvolvedores: XML, JSON, CSS, JavaScript, Java, C #, XML, SQL, CSV, Excel.",
+    "link": "http://codebeautify.org/"
+  }, {
+    "titulo": "Your Web, documented · WebPlatform.org",
+    "link": "http://www.webplatform.org/",
+    "about": "Documentação de tecnologias Web, desenvolvida por grandes empresas como W3C, Intel, Mozilla, Google, etc."
+  }, {
+    "titulo": "Viva o Linux",
+    "about": "Comunidade brasileira de usuários de Linux. Fóruns, artigos e notícias. Da comunidade, para a cominidade",
+    "link": "http://www.vivaolinux.com.br/"
+  }, {
+    "titulo": "Linux Descomplicado | A linha de comando nunca mais será a mesma",
+    "about": "Blog sobre assuntos Linux. De fácil acesso a todos usuários interessados em aprender a usar o sistema Linux!",
+    "link": "http://www.linuxdescomplicado.com.br/"
+  }, {
+    "titulo": "Fedora Documentation",
+    "about": "Documentação para a distribuição GNU/Linux Fedora.",
+    "link": "http://docs.fedoraproject.org/"
   }
 ]}

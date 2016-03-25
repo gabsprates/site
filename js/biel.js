@@ -78,20 +78,18 @@ function geraLinks(data) {
   data = data.links;
   var nav   = document.getElementById("links-uteis__lista");
   var count = data.length;
-  var linkA = "";
-  var linkT = "";
-  var linkD = "";
+  var linkA;
   for (var i = 0; i < count; i++) {
     linkA = "";
-    linkT = "";
-    linkD = "";
 
-    console.log(data[i]);
     linkA = addNode(nav, 'a');
-    linkT = addNode(linkA, 'strong', data[i].titulo);
-    linkD = addNode(linkA, 'span', data[i].about);
+    addNode(linkA, 'strong', data[i].titulo);
+    if (data[i].about) {
+      addNode(linkA, 'span', data[i].about);
+    }
     linkA.href = data[i].link;
     linkA.title = data[i].titulo;
+    linkA.target = "_blank";
 
   }
 }
