@@ -1,0 +1,22 @@
+{ "links": [
+  {
+    "titulo": "Gigapix Estúdio Multimídia",
+    "link": "http://gigapix.com.br",
+    "about": "Empresa que trabalho atualmente."
+  },
+  {
+    "titulo": "DuckDuckGo",
+    "link": "http://duckduckgo.com",
+    "about": "Buscador que me fez deixar o Google Search."
+  },
+  {
+    "titulo": "Patternify",
+    "link": "http://www.patternify.com/",
+    "about": "Gerador de imagens PNG em base64 com dataURI."
+  },
+  {
+    "titulo": "Easing Functions Cheat Sheet",
+    "link": "http://easings.net/",
+    "about": "Esta página ajuda você a escolher a função de atenuação para animações, isso especifica a variação de um parâmetro ao longo do tempo."
+  }
+]}

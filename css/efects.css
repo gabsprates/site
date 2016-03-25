@@ -1,8 +1,0 @@
-.efect__zoom > * {
-	transition: transform .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-.efect__zoom:active > *,
-.efect__zoom:focus > *,
-.efect__zoom:hover > * {
-	transform: scale(1.6);
-}

@@ -1,0 +1,96 @@
+.efect__zoom {
+	> * {
+		-webkit-transition: -webkit-transform .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+		transition: -webkit-transform .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+		transition: transform .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+		transition: transform .3s cubic-bezier(0.68, -0.55, 0.265, 1.55), -webkit-transform .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	}
+	&:active > *,
+	&:focus > *,
+	&:hover > * {
+		-webkit-transform: scale(1.6);
+		        transform: scale(1.6);
+	}
+}
+
+
+.load {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	position: relative;
+	height: 40px;
+	margin-bottom: 10px;
+
+	&__box {
+		width: 40px;
+		height: 40px;
+		position: absolute;
+		left: 50%;
+		margin-left: -20px;
+		top: 0;
+
+		-webkit-animation-name: girar;
+
+		        animation-name: girar;
+		-webkit-animation-duration: 1.5s;
+		        animation-duration: 1.5s;
+		-webkit-animation-iteration-count: infinite;
+		        animation-iteration-count: infinite;
+		-webkit-animation-timing-function: linear;
+		        animation-timing-function: linear;
+		&__dot {
+			position: absolute;
+			background-color: #FFF;
+			box-shadow: 0 0 2px rgba(0,0,0,1);
+			width: 10px;
+			height: 10px;
+			bottom: 0;
+			left: 15px;
+			border-radius: 100%;
+		}
+	}
+	.load {
+		&1 {
+			-webkit-animation-delay: 0s;
+			        animation-delay: 0s;
+		}
+		&2 {
+			-webkit-animation-delay: 0.5s;
+			        animation-delay: 0.5s;
+		}
+		&3 {
+			-webkit-animation-delay: 1s;
+			        animation-delay: 1s;
+		}
+	}
+}
+
+@-webkit-keyframes girar {
+	0% {
+
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+	}
+}
+
+@keyframes girar {
+	0% {
+
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+	}
+}

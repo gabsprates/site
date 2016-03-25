@@ -10,6 +10,7 @@ html, body {
 body {
 	background-position: center;
 	background-size: 1000px auto;
+	background-attachment: fixed;
 	color: #333;
 	font-family: banksia, sans-serif;
 	font-size: 16px;
@@ -47,6 +48,11 @@ a {
 	text-align: justify;
 }
 
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .btn {
 	border-radius: 100%;
 	overflow: hidden;
@@ -55,7 +61,7 @@ a {
 	width: 50px;
 	box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
 	cursor: pointer;
-	display: inline-block;
+	display: block;
 	line-height: 50px;
 	text-align: center;
 }
